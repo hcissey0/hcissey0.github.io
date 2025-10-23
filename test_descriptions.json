@@ -14,9 +14,17 @@
     ]
   },
   "week_2": {
-    "title": "Week 2: Coming Soon",
-    "overview": "The project description for Week 2 is not available yet. Please check back later.",
-    "prerequisites": [],
-    "stages": []
+    "title": "Week 2: Core Banking Features & API Interaction",
+    "overview": "This week, students will build the core functionalities of the banking application. They will create API endpoints for managing accounts and performing transactions, and then build the corresponding frontend components to interact with these endpoints. By the end of this week, users will be able to view their account details, see a list of their transactions, and transfer money between their own accounts.",
+    "prerequisites": [
+      "Completed all tasks from Week 1.",
+      "Backend and Frontend servers run without errors."
+    ],
+    "stages": [
+      "<strong>Account & Transaction List APIs:</strong> Create API endpoints to fetch account lists and the transaction history for a specific account, ensuring users can only access their own data.",
+      "<strong>Frontend Dashboard Display:</strong> Build the main dashboard UI in Next.js to display the user's accounts and their associated transaction history, fetching data from the new APIs.",
+      "<strong>Transfer Money API & Frontend Form:</strong> Implement the backend logic (with database transactions) and frontend UI for securely transferring money between a user's own accounts.",
+      "<strong>User Profile API & View:</strong> Create a simple profile page where a user can view and update their first and last name, with changes reflected in the database."
+    ]
   }
 }
