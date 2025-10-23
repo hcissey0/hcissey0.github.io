@@ -1,0 +1,22 @@
+{
+  "week_1": {
+    "title": "Week 1: The Authentication & Core Models Foundation",
+    "overview": "By the end of this week, students will have built a secure and functional authentication system for a banking application. This includes a robust backend API for user registration and login, a reactive frontend for user interaction, and the foundational database models for accounts and transactions.",
+    "prerequisites": [
+      "Repository name must be <strong>banking_application</strong>.",
+      "Root directory must contain <code>frontend/</code>, <code>backend/</code>, and a non-empty <code>README.md</code>."
+    ],
+    "stages": [
+      "<strong>Project Scaffolding & Custom User Model:</strong> Initialize Django and Next.js projects. Create a custom user model in Django using email as the unique identifier.",
+      "<strong>User Registration & Login API Endpoints:</strong> Build secure API endpoints for user registration and token-based login using Django REST Framework.",
+      "<strong>Frontend Implementation:</strong> Develop registration/login forms in Next.js, manage global authentication state with React Context, and protect dashboard routes from unauthenticated access.",
+      "<strong>Core Banking Models & Protected API Endpoints:</strong> Define <code>Account</code> and <code>Transaction</code> models in Django and create a secure API endpoint that allows a logged-in user to view only their own account information."
+    ]
+  },
+  "week_2": {
+    "title": "Week 2: Coming Soon",
+    "overview": "The project description for Week 2 is not available yet. Please check back later.",
+    "prerequisites": [],
+    "stages": []
+  }
+}
